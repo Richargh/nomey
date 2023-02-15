@@ -19,6 +19,10 @@
     "build:mac": "npm run build && electron-builder --mac --config",
     "build:linux": "npm run build && electron-builder --linux --config"
   },
+  "engines" : {
+    "node" : ">=18.14.0",
+    "npm" : ">=9.3.1"
+  },
   "dependencies": {
     "@electron-toolkit/preload": "^1.0.3",
     "@electron-toolkit/utils": "^1.0.2",

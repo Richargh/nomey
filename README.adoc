@@ -4,6 +4,16 @@ An Electron application with Vue and TypesSript
 
 == Project Setup
 
+=== Node
+
+[source,bash]
+----
+# via nvm
+nvm use
+# or fnm
+fnm use
+----
+
 === Install
 
 [source,bash]
